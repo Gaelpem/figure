@@ -40,7 +40,7 @@
 .losange{
     height: 178px;
     width: 178px;
-    background-color: blueviolet;
+    background-color: red;
     transform: rotate(-135deg);
     left: 57.3%; 
     bottom: 32.3%;
@@ -55,4 +55,14 @@
     left: 23%;
     bottom: 24%;
     z-index: -1;
+}
+
+.rectangle{
+    width: 251px;
+    height: 124px;
+    transform: skewX(-45deg);
+    background-color: blueviolet;
+    position:absolute;
+    bottom: 0;
+    left: 12.4%;
 }
